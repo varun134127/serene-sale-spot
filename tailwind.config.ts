@@ -52,15 +52,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
+				ecommerce: {
+					primary: '#2563eb', // blue-600
+					secondary: '#1d4ed8', // blue-700
+					light: '#f9fafb', // gray-50
+					dark: '#1f2937', // gray-800
+					accent: '#f59e0b', // amber-500
 				}
 			},
 			borderRadius: {
